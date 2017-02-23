@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:balloonberry="http://schemas.android.com/apk/res-auto">
+
+    <!-- Refresh -->
+    <item android:id="@+id/action_refresh"
+        android:icon="@drawable/ic_action_cloud_done"
+        android:title="Refresh"
+        balloonberry:showAsAction="ifRoom" />
+    <!-- Check updates -->
+    <item android:id="@+id/action_check_updates"
+        android:icon="@drawable/mob"
+        android:title="Check Updates"
+        balloonberry:showAsAction="never" />
+
+    <item android:id="@+id/action_log_out"
+        android:icon="@drawable/mob"
+        android:title="Log Out"
+        balloonberry:showAsAction="never" />
+
+    <item android:id="@+id/action_exit"
+        android:icon="@drawable/mob"
+        android:title="Exit"
+        balloonberry:showAsAction="never" />
+</menu>

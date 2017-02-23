@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:balloonberry="http://schemas.android.com/apk/res-auto">
+    <!-- Search / will display always -->
+
+    <!-- Refresh -->
+    <item android:id="@+id/addNum"
+        android:icon="@drawable/ic_action_mode_edit"
+        android:title="INPUT NUM"
+        balloonberry:showAsAction="always" />
+
+    <item android:id="@+id/action_done"
+        android:icon="@drawable/ic_action_thumb_up"
+        android:title="Done"
+        balloonberry:showAsAction="ifRoom" />
+
+    <!-- Check updates -->
+
+</menu>

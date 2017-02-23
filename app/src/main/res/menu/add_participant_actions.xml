@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:balloonberry="http://schemas.android.com/apk/res-auto">
+    <!-- Search / will display always -->
+    <item android:id="@+id/action_search"
+        android:icon="@drawable/ic_action_search"
+        android:title="Search"
+        balloonberry:actionViewClass="android.support.v7.widget.SearchView"
+        balloonberry:showAsAction="always|collapseActionView"/>
+
+    <!-- Refresh -->
+    <item android:id="@+id/action_refresh"
+        android:icon="@drawable/ic_action_cloud_done"
+        android:title="Refresh"
+        balloonberry:showAsAction="ifRoom" />
+
+    <!-- Check updates -->
+
+</menu>

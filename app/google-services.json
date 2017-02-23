@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "322018184872",
+    "firebase_url": "https://ks-organizer.firebaseio.com",
+    "project_id": "ks-organizer",
+    "storage_bucket": "ks-organizer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:322018184872:android:ac09df56cfc51dc7",
+        "android_client_info": {
+          "package_name": "edu.sastra.ks.ksorganizer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "322018184872-ia87is0ehtc0n8esnsrsoc9k7vr68vbt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.sastra.ks.ksorganizer",
+            "certificate_hash": "FE0EFC98AC6629764EA9015C79A950A7A87EECE8"
+          }
+        },
+        {
+          "client_id": "322018184872-sj1tr91g7rdd5uhaun62e0iq282f7g2v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBb4oTUTM4YDeEMUEJjnzSRNIBeNNg2RxE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "322018184872-sj1tr91g7rdd5uhaun62e0iq282f7g2v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

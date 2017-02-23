@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_participant"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.sastra.ks.ksorganizer.AddParticipant"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="81dp"
+    android:background="#F1F1F1">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="59dp"
+        android:layout_height="56dp"
+        android:layout_gravity="bottom|end"
+        android:onClick="onFab"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_action_person_add"
+        app:backgroundTint="@android:color/holo_red_light" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text="Assign Place"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#306B34"
+            android:onClick="onButton"
+            android:id="@+id/button7" />
+
+        <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/button7"
+        android:layout_height="match_parent">
+
+            <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp"
+            android:clipToPadding="false"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+            </android.support.v7.widget.RecyclerView>
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

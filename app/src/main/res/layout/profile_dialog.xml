@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Name"
+        android:textAllCaps="true"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ksid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/linearLayout"
+        android:layout_alignStart="@+id/linearLayout"
+        android:layout_below="@+id/name"
+        android:text="KS_ID" />
+
+    <TextView
+        android:id="@+id/gen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/coll"
+        android:layout_alignStart="@+id/coll"
+        android:layout_below="@+id/coll"
+        android:text="Gender"/>
+
+    <TextView
+        android:id="@+id/mob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/gen"
+        android:layout_alignStart="@+id/gen"
+        android:layout_below="@+id/gen"
+        android:text="Mobile No." />
+
+    <TextView
+        android:id="@+id/coll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ksid"
+        android:layout_alignStart="@+id/ksid"
+        android:layout_below="@+id/ksid"
+        android:text="College" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/mob"
+        android:layout_alignStart="@+id/mob"
+        android:layout_below="@+id/mob"
+        android:text="Email_ID" />
+
+    <Button
+        android:id="@+id/place"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/linearLayout"
+        android:layout_alignLeft="@+id/email"
+        android:layout_alignRight="@+id/linearLayout"
+        android:layout_alignStart="@+id/email"
+        android:layout_below="@+id/email"
+        android:text="Assign Place" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/place"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/call"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_call" />
+
+        <ImageButton
+            android:id="@+id/msg"
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_message" />
+
+        <ImageButton
+            android:id="@+id/mail"
+            android:layout_width="67dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/ic_action_mail_outline" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/place"
+        android:layout_alignRight="@+id/place"
+        android:layout_below="@+id/name"
+        app:srcCompat="@drawable/layeru" />
+
+</RelativeLayout>

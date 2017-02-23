@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:id="@+id/radioGroup">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FIRST"
+            android:id="@+id/radioButton"
+            android:checked="false"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SECOND"
+            android:id="@+id/radioButton2"
+            android:checked="false"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="THIRD"
+            android:id="@+id/radioButton3"
+            android:checked="false"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NO PLACE"
+            android:id="@+id/radioButton4"
+            android:checked="false"
+            android:textSize="15dp" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/et"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Special Mention"
+        android:layout_below="@+id/radioGroup"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et"
+        android:layout_toLeftOf="@+id/button"
+        android:layout_toStartOf="@+id/button"
+        android:id="@+id/button1" />
+
+    <Button
+        android:text="OK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_below="@+id/et"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+
+</RelativeLayout>

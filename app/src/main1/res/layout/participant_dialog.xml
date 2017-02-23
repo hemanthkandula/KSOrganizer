@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="20dp"
+    android:background="@color/background_floating_material_light"
+    android:paddingBottom="20dp">
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/abc_search_url_text_selected" />
+
+    <Button
+        android:text="Assign Place"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/place"
+        android:textColor="@color/abc_search_url_text_pressed"
+        android:background="@color/background_material_light"
+        android:layout_below="@+id/text"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/text"
+        android:layout_alignStart="@+id/text" />
+
+    <ImageButton
+        android:src="@android:drawable/ic_dialog_email"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignTop="@+id/msg"
+        android:layout_below="@+id/text"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/mail"
+        android:background="@color/design_textinput_error_color_light" />
+
+    <ImageButton
+        android:src="@android:drawable/stat_sys_phone_call"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/call"
+        android:background="@color/background_floating_material_light"
+        android:backgroundTint="#3de02b"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/place"
+        android:layout_alignLeft="@+id/place"
+        android:layout_alignStart="@+id/place" />
+
+    <ImageButton
+        android:src="@android:drawable/stat_notify_chat"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/msg"
+        android:background="@color/background_floating_material_light"
+        android:backgroundTint="@color/accent_material_light"
+        android:layout_alignBottom="@+id/call"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cancel"
+        android:textColor="@color/abc_search_url_text_pressed"
+        android:background="@color/background_material_light"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/mail"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/call"
+        android:layout_alignStart="@+id/call"
+        android:paddingBottom="10dp"
+        android:layout_marginBottom="10dp" />
+
+</RelativeLayout>
